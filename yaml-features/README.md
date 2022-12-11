@@ -110,7 +110,7 @@ The **mode_time** substitution defines the amount of time without a press that w
 
 **Fan Speed Percentages**
 
-The substitutions **speed_0_prcnt, speed_1_prcnt, speed_2_prcnt, and speed_3_prcnt** allow configuration of four different speed percentages for the fan.  By default, the speeds are 0, 33, 67, and 100.
+The substitutions **speed_0_prcnt, speed_1_prcnt, speed_2_prcnt, and speed_3_prcnt** allow configuration of four different speed percentages for the fan.  By default, the speeds are 0, 33, 67, and 100.  If **speed_0_prcnt** is not `'0'` (equivalent to "off"), behavior *might* be unexpected.
 
 **Fan Speed Colors**
 
